@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/autumn84/node-loopring-relay2-api.git"
+    "url": "git+https://github.com/Loopring/node-loopring-relay2-api.git"
   },
   "keywords": [
     "loopring",
@@ -18,9 +18,9 @@
   "author": "autumn84",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/autumn84/node-loopring-relay2-api/issues"
+    "url": "https://github.com/Loopring/node-loopring-relay2-api/issues"
   },
-  "homepage": "https://github.com/autumn84/node-loopring-relay2-api#readme",
+  "homepage": "https://github.com/Loopring/node-loopring-relay2-api#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^5.15.3",
