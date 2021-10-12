@@ -1,4 +1,4 @@
-var LoopringRelay = require('./node-loopring-relay2-api');
+var Loopring = require('./loopring');
 var ethUtil = require("ethereumjs-util");
 var pjs = require("protocol2-js");
 var eip712Util = require("./eip712-util");
@@ -8,7 +8,7 @@ const secp256k1 = require('secp256k1');
 var getAccountRequest = {address: "0xe20cf871f1646d8651ee9dc95aab1d93160b3467", tokens: []};
 getAccountRequest.tokens.push("0x97241525fe425c90ebe5a41127816dcfa5954b06");
 
-var loopringRelay = new LoopringRelay();
+var loopringRelay = new Loopring();
 
 //loopringRelay.getAccounts(10, getAccountRequest);
 

@@ -1,26 +1,26 @@
 {
-  "name": "node-loopring-relay2-api",
-  "version": "1.0.0",
-  "description": "Loopring relay2 api for https://docs.loopring.org/relayer/apis",
-  "main": "node-loopring-relay2-api.js",
+  "name": "loopring-node",
+  "version": "0.0.1",
+  "description": "Updated Loopring api for https://docs.loopring.io/en/",
+  "main": "src/index.js",
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Loopring/node-loopring-relay2-api.git"
+    "url": "git+https://github.com/skeetzo/loopring-node.git"
   },
   "keywords": [
     "loopring",
     "relay2",
     "api"
   ],
-  "author": "autumn84",
+  "author": "skeetzo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Loopring/node-loopring-relay2-api/issues"
+    "url": "https://github.com/skeetzo/loopring-node/issues"
   },
-  "homepage": "https://github.com/Loopring/node-loopring-relay2-api#readme",
+  "homepage": "https://github.com/skeetzo/loopring-node#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^5.15.3",
