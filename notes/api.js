@@ -1,5 +1,7 @@
 
+
 get
+get server timestamp
 /api/v3/timestamp
 Returns the relayer's current time in millisecond
 {
@@ -1315,3 +1317,106 @@ Get pending txs to be packed into next block
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // get server timestamp
+  async timestamp() {}
+  // get api key
+  async getKey() {}
+  // update api key
+  async updateKey() {}
+  // get next storage id
+  async getStorageId() {}
+  // get order details
+  async getOrder() {}
+  // submit an order
+  async submitOrder() {}
+  // cancel order
+  async cancelOrder() {}
+  // get multiple orders
+  async getOrders() {}
+  // get market configurations
+  async getMarketInfo() {}
+  // get token configurations
+  async getTokenInfo() {}
+  // get exchange configurations
+  async getExchangeInfo() {}
+  // get market orderbook
+  async getDepth() {}
+  // get market ticker
+  async getTicker() {}
+  // get market candlestick
+  async getCandlestick() {}
+  // get token fiat prices
+  async getFiatPrice() {}
+  // get market recent trades
+  async trade() {}
+  // submit internal transfer
+  async transfer() {}
+  // query user information
+  async getAccount() {}
+  // update account eddsa key
+  async updateAccount() {}
+  // get user registration transactions
+  async getUserTx() {}
+  // get password reset transactions
+  async getPasswordTx() {}
+  // get user exchange balances
+  async getUserBalances() {}
+  // get user deposit history
+  async getUserDeposits() {}
+  // get user onchain withdrawal history
+  async getWithdrawals() {}
+  // submit offchain withdraw request
+  async withdraw() {}
+  // get user transfer list
+  async getTransfers() {}
+  // get user trade history
+  async getTrades() {}
+  // query current token minimum amount
+  async getOrderFee() {}
+  // query user place order fee rate
+  async getRate() {}
+  // query current fee amount
+  async getCurrentFee() {}
+  // get AMM pool configurations
+  async getAMM_Config() {}
+  // get AMM pool balance snapshot
+  async getAMM_Snapshot() {}
+  // join into AMM pool
+  async joinAMM() {}
+  // exit an AMM pool
+  async exitAMM() {}
+  // user's AMM join/exit transactions
+  async getAMM_Tx() {}
+  // get AMM pool trade transactions
+  async getAMM_Trades() {}
+  // get L2 block info
+  async getBlock() {}
+  // get pending txs
+  async getPendingRequests() {}
